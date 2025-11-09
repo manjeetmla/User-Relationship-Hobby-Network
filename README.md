@@ -21,7 +21,6 @@ Notifications: Toast messages and error handling with HTTP status codes
 Styling: Nodes color-coded and sized based on popularity score
 
 Project Structure
-text
 .
 ├── backend/
 │   ├── __init__.py
@@ -38,6 +37,7 @@ text
 ├── backend/Dockerfile
 ├── frontend/Dockerfile
 └── README.md
+
 Setup and Run with Docker
 Prerequisites
 Docker and Docker Compose installed on your machine

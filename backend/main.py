@@ -4,9 +4,9 @@ from sqlalchemy.orm import Session
 from typing import List
 import os
 
-from backend.database import engine, get_db, Base
-from backend.models import User, friendship_table
-from backend.schemas import (
+from database import engine, get_db, Base
+from models import User, friendship_table
+from schemas import (
     UserCreate, UserUpdate, UserResponse, LinkRequest,
     GraphResponse, GraphNode, GraphEdge
 )

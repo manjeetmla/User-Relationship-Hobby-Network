@@ -2,7 +2,7 @@ from sqlalchemy import Column, String, Integer, DateTime, Table, ForeignKey, ARR
 from sqlalchemy.orm import relationship
 from datetime import datetime
 import uuid
-from backend.database import Base
+from database import Base
 
 friendship_table = Table(
     'friendships',

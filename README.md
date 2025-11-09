@@ -46,8 +46,7 @@ Steps
 Clone the repository or extract the project ZIP:
 
 bash
-git clone <repo-url>
-cd <project-folder>
+git clone https://github.com/manjeetmla/User-Relationship-Hobby-Network.git
 Make sure your .env file or environment variables are set correctly for the database URL in backend:
 
 text
